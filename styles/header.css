@@ -29,10 +29,10 @@
     background-color: var(--branco);
     width: 60vw;
 }
-.container__botão{
+.container__botao{
     display:none;
 }
-.container__botão:checked~ .lista-menu{
+.container__botao:checked~.lista-menu{
     display:block;
 }
 .lista-menu__item{
@@ -47,6 +47,6 @@
     text-transform: uppercase;
 }
 .lista-menu__titulo, .lista-menu__item{
-    padding: 0em;
+     padding: 0em;
     background-color: var(--branco);
 }
